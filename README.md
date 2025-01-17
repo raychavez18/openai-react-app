@@ -1,3 +1,16 @@
+# OpenAI Integration with React and NextJS
+A demo project showcasing the latest React and Next.js techniques, leveraging the OpenAI API for generating intelligent chatbot responses.
+
+Built with:<br/>
+React 19.0<br/>
+NextJS 15.1.4<br/>
+Tailwind CSS 3.4.17<br/>
+PostCSS 8.5.1<br/>
+Node: 22.13.0<br/>
+Package Manager: npm 10.9.2
+
+To view live demo: https://openai.raychavezweb.com/
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

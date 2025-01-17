@@ -6,7 +6,7 @@ import './globals.css';
 
 function App() {
   return (
-    <div className="app p-1">
+    <div className="app">
       <OpenAIComponent />
     </div>
   );

@@ -22,8 +22,8 @@ const OpenAIComponent = () => {
 
 
   return (
-    <div className='container'>
-      <h1 className='bg-blue-500 font-bold my-1 py-5 px-4 rounded'>OpenAI Integration with React</h1>
+    <div className='container mx-auto px-8 py-4 bg-gray-100 rounded shadow animate-fade'>
+        <h1 className='my-1 font-sans text-gray-900 text-2xl font-medium border-b border-gray-20'>OpenAI Integration with React and NextJS</h1>
       <form onSubmit={handleSubmit}>
         <textarea
           value={input}
@@ -33,11 +33,11 @@ const OpenAIComponent = () => {
           placeholder="Type your prompt here..."
         />
         <br />
-        <button className="w-full bg-red-500 text-white font-bold p-5 py-2 px-4 rounded hover:bg-red-700" type="submit">Get Response</button>
+        <button className="w-full text-white font-bold bg-emerald-500 hover:bg-emerald-600 p-5 py-2 px-4 rounded" type="submit">Get Response</button>
       </form>
       <div>
-        <h2 className='my-1'>Response:</h2>
-        <p className=' bg-white text-black font-bold p-5 rounded'>{response}</p>
+        <h2 className='my-1 font-sans font-medium text-gray-900 text-left'>Response:</h2>
+        <p className='my-1 mb-3.5 bg-white text-black p-5 rounded'>{response}</p>
       </div>
     </div>
   );
