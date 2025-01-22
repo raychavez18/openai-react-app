@@ -20,3 +20,21 @@ export const getOpenAIResponse = async (input) => {
       throw error;
     }
   };
+
+export const getOpenAIImage = async (input) => {
+  try {
+      const imageResponse = await openai.images.generate({
+          model: "dall-e-2",
+          prompt: input,
+          n: 1,
+          size: "256x256",
+      });
+      return imageResponse;
+  } catch (error) {
+      console.error("Error generating image:", error);
+      if (error.response && error.response.status === 400) {
+          throw new Error("Safety system restriction.");
+      }
+      throw error;
+  }
+};
