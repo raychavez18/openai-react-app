@@ -4,7 +4,7 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({ 
     dangerouslyAllowBrowser: true,
-    apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY 
+    apiKey: process.env.NEXT_PUBLIC_SECRET_KEY
 });
 
 export const getOpenAIResponse = async (input) => {
