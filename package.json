@@ -9,15 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.22",
     "axios": "^1.7.9",
     "next": "^15.1.9",
-    "openai": "^4.78.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "openai": "^6.10.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
-    "postcss": "^8.5.1",
+    "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   }
 }
