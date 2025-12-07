@@ -2,10 +2,10 @@
 A demo project showcasing the latest React and Next.js techniques, leveraging the OpenAI API for generating intelligent chatbot responses.
 
 Built with:<br/>
-React 19.0<br/>
-NextJS 15.1.4<br/>
+React 19.2.1<br/>
+NextJS 15.1.9<br/>
 Tailwind CSS 3.4.17<br/>
-PostCSS 8.5.1<br/>
+PostCSS 8.5.6<br/>
 Node: 22.13.0<br/>
 Package Manager: npm 10.9.2
 
